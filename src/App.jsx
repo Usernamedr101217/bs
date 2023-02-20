@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <nav>
         <h1 id='head'>Rawstars</h1>
-        <img src="/src/assets/star.webp" alt="star" className='dropdown' onClick={handleClick}/>
+        <img src="/src/assets/Star.svg" alt="star" className='dropdown' onClick={handleClick}/>
         <div className={showNav ? 'open' : ''}>
             <Link className='link' to='events' smooth={true} duration={500} onClick={closeNav}>Events</Link>
             <Link className='link' to='brawlers' smooth={true} duration={500} onClick={closeNav}>Brawlers</Link>

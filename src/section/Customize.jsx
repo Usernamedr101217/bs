@@ -113,24 +113,24 @@ export default function Customize() {
                         <div className="mod-add">
                           <section>
                             <div>
-                                <img src='/src/assets/star.png' alt="stpw" className="add-img"/>
+                                <img src='/star.png' alt="stpw" className="add-img"/>
                                 <h5>{customize.star1Name}</h5>
                                 <p>{customize.star1Description}</p>
                             </div>
                             <div>
-                                <img src='/src/assets/star.png' alt="stpw" className="add-img"/>
+                                <img src='/star.png' alt="stpw" className="add-img"/>
                                 <h5>{customize.star2Name}</h5>
                                 <p>{customize.star2Description}</p>
                             </div>
                           </section>
                           <section>
                             <div>
-                                <img src='/src/assets/gadget.png' alt="stpw" className="add-img"/>
+                                <img src='/gadget.png' alt="stpw" className="add-img"/>
                                 <h5 style={{ color: '#2bfc32' }}>{customize.gadget1Name}</h5>
                                 <p style={{ color: '#2bfc32' }}>{customize.gadget1Description}</p>
                             </div>
                             <div>
-                                <img src='/src/assets/gadget.png' alt="stpw" className="add-img"/>
+                                <img src='/gadget.png' alt="stpw" className="add-img"/>
                                 <h5 style={{ color: '#2bfc32' }}>{customize.gadget2Name}</h5>
                                 <p style={{ color: '#2bfc32' }}>{customize.gadget2Description}</p>
                             </div>

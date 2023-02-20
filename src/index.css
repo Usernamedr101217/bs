@@ -43,6 +43,11 @@ nav > div {
   flex-direction: row;
   gap: 3em;
 }
+span {
+  display: none;
+  cursor: pointer; 
+  color: gray;
+}
 .link:hover {
   color: #ADD8E6;
 }
@@ -88,5 +93,8 @@ footer {
   }
   nav > div.open {
     transform: translate(0);
+  }
+  span.showBtn {
+    display: block;
   }
 }

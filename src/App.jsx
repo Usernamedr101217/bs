@@ -23,6 +23,7 @@ function App() {
         <h1 id='head'>Rawstats</h1>
         <img src="/Star.svg" alt="star" className='dropdown' onClick={handleClick}/>
         <div className={showNav ? 'open' : ''}>
+            <span style={{ cursor: 'pointer', color: 'gray' }} onClick={closeNav}>X</span>
             <Link className='link' to='events' smooth={true} duration={500} onClick={closeNav}>Events</Link>
             <Link className='link' to='brawlers' smooth={true} duration={500} onClick={closeNav}>Brawlers</Link>
             <Link className='link' to='custom' smooth={true} duration={500} onClick={closeNav}>Customize</Link>
